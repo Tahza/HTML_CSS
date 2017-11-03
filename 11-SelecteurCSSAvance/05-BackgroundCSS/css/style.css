@@ -1,0 +1,13 @@
+.bgOrange {
+	background-color: #dc8b36;
+	padding: 10px;
+}
+
+.bgWf3 {
+    height: 320px;
+    width: 150px;
+    background-image: url(../img/wf3.jpg);
+    background-repeat: repeat-y;
+    background-position: center 0px;
+    color: #FFFFFF;
+}

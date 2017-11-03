@@ -1,0 +1,28 @@
+															/* ---- HEADER ---- */
+header {
+	margin: 20px 0;
+}
+
+.logo, .menu {
+	float: left;
+	width: 50%;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-size: 25px;
+}
+
+.menu li {
+	margin-right: 180px; 
+	display: inline;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px;
+}
+															/* ---- HEADER ---- */

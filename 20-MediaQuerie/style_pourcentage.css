@@ -1,0 +1,79 @@
+/* La page de manière globale */
+
+.page {
+	width: auto; /* Ecrase width: 980px; */
+    max-width: 980px;
+}
+
+.logo, nav {
+	width: 50%;
+}
+
+main, aside {
+	padding: 1%;
+}
+
+main {
+	width: 58%;
+}
+
+article {
+	width: 27.33%;
+    height: 140px;
+    margin: 2%;
+    padding: 1%;
+}
+
+aside {
+	width: 36%;
+	height: 503px;
+	padding: 2%;
+}
+
+footer {
+	padding: 20px;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 992px) {
+	article {
+		width: 44%;
+	}
+	main aside {
+		float: right;
+	}
+	main {
+		width: 98%;
+	}
+	aside {
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	aside {
+		display: none;
+	}
+	article {
+		width: 94%;
+	}
+	main {
+		width: 98%;
+	}
+	.logo, nav {
+		clear: left;
+	}
+	nav ul li {
+		display: inherit;
+		margin: 0;
+	}
+}
+
+@media print {
+	aside {
+		display: none;
+	}
+	main {
+		width: 98%;
+	}
+}

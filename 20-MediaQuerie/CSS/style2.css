@@ -1,0 +1,86 @@
+#mobile-title {
+	display: none;
+}
+
+#desktop-title {
+	text-align: center;
+}
+
+.left1, .left2, .right1, .right2 {
+	float: left;
+	width: 25%;
+}
+
+/* 
+Pour écrire une media query en css :
+@media (condition) {}
+*/
+/* Sur les écrans jusque 1024px, on affiche la div avec l'id mobile title */
+
+@media (max-width: 1024px) {
+	#mobile-title {
+		display: block;
+		text-align: center;
+	}
+	#desktop-title {
+		display: none;
+	}
+
+	/* en px */
+	/*
+	h1 {
+		font-size: 70px;
+	}
+	h2 {
+		font-size: 70px;
+	}
+	p {
+		font-size: 25px;
+	}*/
+
+	/* en em */ 
+	/* Le em est relatif à la font size de l'élément parent */
+	/* Le rem est relatif à la font size de body */
+
+	h1 {
+		font-size: 4.375em; /* 4.375 * 16 (font-size de body en px) = 70*/
+	}
+
+	h2 {
+		font-size: 4.375em;
+	}
+
+	p {
+		font-size: 1.5625em; /* 1.5625 * 16 = 25 */
+	}
+}
+
+@media (max-width: 992px) {
+	.left1, .left2, .right1, .right2 {
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.left1, .left2, .right1, .right2 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#mobile-title {
+		color: red;
+	}
+	.left1, .left2 {
+		color: blue;
+	}
+	.right1, .right2 {
+		color: gold;
+	}
+}
+
+@media (min-device-pixel-ratio: 2) { /* CSS pour les écrans Rétina */
+	body.retina {
+		font-size: 32px;
+	}
+}

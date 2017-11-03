@@ -1,0 +1,289 @@
+html {
+	height: 1069px;
+}
+
+#marge {
+	width: 900px;
+	margin: auto;
+}
+
+body {
+	background-color: #FFF5D7;
+	font-family: 'Trebuchet MS';
+}
+
+.logo img {
+	width: 55px;
+}
+
+.logo h1 {
+	font-weight: normal;
+	display: inline;
+	font-family: ballpark weiner;
+	font-size: 2.5em;
+}
+
+.logo h2 {
+	margin: 0;
+	margin-bottom: 12px;
+	font-family: Day roman regular;
+	font-weight: normal;
+}
+
+.logo, .menu {
+	float: left;
+	width: 50%;
+}
+
+.menu {
+	text-align: right;
+	margin-top: 60px;
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+	font-family: Day roman regular;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-size: 21px;
+}
+
+.menu ul li a:hover {
+	color: #760001;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+.clearfix {
+	clear: left;
+}
+
+h1 {
+	font-family: serif;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+.fond {
+    background-image: url(images/sanfrancisco.jpg);
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 5px #1c1a19;
+}
+
+nav {
+	display: inline-block;
+	width: 740px;
+	text-align: right;
+}
+
+.banniere {
+	background-color: rgba(0, 0, 0, 0.70);
+	position: absolute;
+	top: 150px;
+	width: 900px;
+	height: 50px;
+	border-radius: 5px;
+}
+
+.txtBanniere {
+	position: relative;
+	color: white;
+	top: 16px;
+	font-family: Trebuchet MS;
+	font-size: 0.8em;
+	left: 9px;
+}
+
+section {
+margin-top: 48px;
+}
+
+header {
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background: url(images/separateur.png) bottom repeat-x;
+}
+
+.article {
+	font-size: 0.8em;
+	text-align: justify;
+	width: 625px;
+	margin-right: 15px;
+	}
+
+.titreTxt {
+    display: inline;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: day roman regular;
+    margin-left: 10px;
+    position: relative;
+    bottom: 19px;
+    font-size: 1.17em;
+    margin: 0;
+    left: 3px;
+}
+.bouton {
+	display: inline-block;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	background: url(images/fond_degraderouge.png) repeat-x;
+	border: 1px solid #760001;
+	border-radius: 5px;
+	text-align: center;
+	padding: 3px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+	background-color: #760001;
+}
+
+.about {
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    float: right;
+    top: -416px;
+    height: 423px;
+    text-align: justify;
+}
+
+.about h2 {
+    font-family: Day Roman;
+    font-weight: normal;
+    top: -16px;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.bulleGrise {
+    position: relative;
+    bottom: -82px;
+    left: -21px;
+}
+
+.zozor_classe {
+    position: absolute;
+    top: 70px;
+    left: 22%;
+    border: 1px solid black;
+}
+.p1 {
+    position: relative;
+    top: 121px;
+}
+
+.p2 {
+    position: relative;
+    top: 125px;
+}
+.imgReseaux{
+    background-position: 40px;
+    position: relative;
+    top: 121px;
+    left: 5px;
+}
+
+footer {
+    background: url(images/separateur.png) top repeat-x,
+    			url(images/ombre.png) repeat-x top;
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.bulleJaune {
+    position: relative;
+    left: 425px;
+}
+.tweet h2 {
+    font-weight: normal;
+    font-family: Day Roman;
+    display: inline-block;
+    font-size: 1.15em;
+    margin-bottom: 0;
+}
+
+.tweet p {
+    font-size: 0.8em;
+}
+
+.photos h2 {
+    font-weight: normal;
+    font-family: Day Roman;
+    display: inline-block;
+    font-size: 1.15em;
+    margin-bottom: 0;
+}
+
+
+.photos img {
+    border: 1px solid black;
+}
+.photos {
+    position: relative;
+    top: -104px;
+    right: -271px;
+}
+
+.amis h2 {
+    font-weight: normal;
+    font-family: Day Roman;
+    display: inline-block;
+    font-size: 1.15em;
+    margin-bottom: 0;
+    float: right;
+    position: relative;
+    top: -245px;
+    right: -63px;
+}
+.amis a {
+    text-decoration: none;
+    color: #760001;
+    list-style-type: none;
+}
+.amis ul
+{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    width: 48%;
+    list-style-image: url(images/ico_liensexterne.png);
+    padding-left: 2px;
+}
+.lis1 {
+	font-size: 14px;
+    float: right;
+    position: relative;
+    top: -200px;
+    right: -511px;
+}
+.lis2 {
+	font-size: 14px;
+    float: right;
+    position: relative;
+    top: -278px;
+    right: -530px;
+}

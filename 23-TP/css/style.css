@@ -1,0 +1,712 @@
+/* © A L E X I S © <--> © D U S S A R T © */
+
+
+
+/* Début Partie 1 */
+
+header {
+	background-color: #87509c;
+	padding-bottom: 120px;
+}
+
+.container-header {
+	margin-top: 40px;
+}
+
+.navbar-toggle {
+	border: 1px solid white;
+	color: white;
+	font-size: 25px;
+	padding: 7px 7px 0;
+}
+
+.navbar-nav>li>a {
+	border: 1px solid transparent;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px;
+	margin-left: 25px;
+}
+
+.navbar-nav>li>a:hover {
+	border: 1px solid #643a79;
+	color: #30bae7;
+	background-color: #643a79;
+	border-radius: 4px;
+}
+
+.navbar-nav>li>a:focus {
+	background-color: transparent;
+}
+
+.jumbotron {
+	margin-top: 60px;
+	background-color: transparent;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 42.16px;
+	text-align: center;
+}
+
+.jumbotron a {
+	border-radius: 4px;
+	background-color: #eb7d4b;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: white;
+	padding: 20px 80px;
+	margin-top: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.jumbotron>.btn {
+	background-image: url(../img/shape.png);
+	background-repeat: no-repeat;
+	background-position-y: 62px;
+}
+
+/* Fin Partie 1 */
+
+/* Début Partie 2 */
+
+.container-services {
+	padding-bottom: 120px;
+	text-align: center;
+	background-color: #17c2a4;
+}
+
+.container-services h2 {
+	padding-top: 60px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.container-services>p {
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+}
+
+.container-services-img img {
+	margin-top: 60px;
+}
+
+.container h3 {
+	margin-top: 35px;
+	font-size: 24px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: white;
+	text-transform: uppercase;
+}
+
+.container p {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+
+}
+
+ /* Fin Partie 2 */
+
+ /* Début Partie 3 */
+
+.container-team {
+	text-align: center;
+	background-color: #e7f1f8;
+	padding-bottom: 120px;
+}
+
+.container-team h4 {
+	color: #3c4761;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 41.29px;
+	padding-top: 60px;
+}
+
+.container-team-head p {
+	font-size: 18.58px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #5d677b;
+	padding-top: 15px;
+}
+
+.container-team-content img {
+	margin-top: 100px;
+}
+
+.container-team h3 {
+	color: #27283d;
+	font-weight: bold;
+	margin: 25px auto 10px;
+}
+
+.container-team-content span {
+	color: #30bae7;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.container-team-content p {
+	color: #9099a8;
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.reseaux img {
+	margin-top: 20px;
+	margin-left: 7px;
+}
+
+/* Fin Partie 3 */
+
+/* Début Partie 4 */
+
+.container-skills {
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.container-skills h5 {
+	color: #3c4761;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 41.29px;
+	padding-top: 60px;
+}
+
+.container-skills p {
+	font-size: 18.58px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #5d677b;
+	padding-top: 15px;
+}
+
+.container-skills-percent {
+	margin-top: 75px;
+}
+
+
+.skill-name {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #27283d;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+}
+
+/* Fin Partie 4 */
+
+/* Début Partie 5 */
+
+.container-pfolio {
+	padding-bottom: 120px;
+	text-align: center;
+	background-color: #ffdd99;
+}
+
+.container-pfolio h5 {
+	color: #3c4761;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 41.29px;
+	padding-top: 60px;
+}
+
+.container-pfolio p {
+	font-size: 18.58px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #5d677b;
+	padding-top: 15px;
+}
+
+.presentation ul {
+	display: inline-block;
+}
+
+.nav-pills>li a {
+	margin-left: 10px;
+	background-color: #ebc985;
+	padding: 10px 25px;
+	color: #606060;
+	margin-top: 10px;
+}
+
+.nav-pills{
+	margin-top: 20px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+}
+
+.nav-pills>li a:hover {
+	background-color: white;
+	color: black;
+}
+
+.mac1 {
+	background-image: url(../img/bg1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 17px; 
+}
+
+.mac2 {
+	background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 17px; 
+}
+
+.mac3 {
+	background-image: url(../img/bg3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 17px; 
+}
+
+.mac4 {
+	background-image: url(../img/bg4.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y: 17px; 
+}
+
+.pfolio-img {
+	padding-top: 75px;
+}
+
+@media (max-width: 768px) {
+	.pfolio-img {
+		display: none;
+}
+}
+
+.container-pfolio-content h3 {
+	font-weight: 600;
+	color: #60584a;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+.boutn .btn {
+	color: white;
+	background-color: #17c2a4;
+	border: none;
+	padding: 20px 50px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-image: url(../img/shape.png);
+	background-repeat: no-repeat;
+	background-position-y: 61px;
+	margin-top: 30px;
+}
+
+/* Fin Partie 5 */
+
+/* Début Partie 6 */
+
+.container-note {
+	text-align: center;
+	background-color: #d74680;
+}
+
+.container-note h5 {
+	padding-top: 60px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.container-note p {
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+
+.txtNote {
+	margin-left: 50px;
+}
+
+.txtNote p{
+	text-align: start; 
+	font-family: 'Titillium Web', sans-serif;
+	font-style: italic;
+	font-size: 21px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.titreNote {
+	margin-left: 50px;
+}
+
+.titreNote h6 {
+	text-align: start; 
+	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	color: white;
+}
+
+.yellow {
+	margin-left: 50px;
+	text-align: start; 
+	color: #ffdd99;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.container-note-content2{
+	margin-top: 150px;
+	margin-bottom: 150px; 
+}
+
+/* Fin Partie 6 */
+
+/* Début Partie 7 */
+
+.container-form {
+	padding-bottom: 120px;
+	background-color: #3c5499;
+	text-align: center;
+}
+
+.container-form h5 {
+	padding-top: 60px;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.container-form p {
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	font-size: 18px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+.form-control {
+	background-color: #273a71;
+	border: 1px solid #273a71;
+	color: white;
+	max-width: 100%;
+}
+
+#email, #name {
+	width: 410px;
+	height: 50px;
+}
+
+textarea {
+	margin: auto;
+}
+
+.form-group {
+	margin-left: 25px;
+}
+
+#message {
+	width: 850px;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome */
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+
+}
+
+.bouton .btn {
+	color: white;
+	background-color: #30bae7;
+	border: none;
+	padding: 20px 50px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-image: url(../img/shape.png);
+	background-repeat: no-repeat;
+	background-position-y: 61px;
+	margin-top: 58px; 
+}
+
+/* Fin Partie 7 */
+
+/* Début Footer */
+
+.container-footer {
+	padding-bottom: 30px;
+	background-color: #344b8e;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	color: #30bae7;
+	text-decoration: none;
+}
+
+nav ul {
+	margin-top: 45px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	margin-left: 55px;
+	color: white;
+	text-decoration: none; 
+	font-size: 24px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+}
+
+/* Fin Footer */
+
+/* Progress bar */
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 13px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #30bae7;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #d74680;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.orange .progress-bar{
+    border-color: #eb7d4b;
+}
+.progress.orange .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #15c7a8;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(120deg);
+        transform: rotate(120deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(70deg);
+        transform: rotate(70deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+/* Progress bar */
+
+/* Back to top */
+	
+.backToTop {
+	position: fixed;
+	bottom: 50px;
+	right: 0.1px;
+	color: #ffffff;
+}
+
+.backToTop-container a{
+	color: black;
+	font-size: 30px;
+	padding-bottom: 6px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+.backToTop-container:hover {
+	transform: scale(1.45);
+}
+
+/* Back to top */
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	.txtNote p {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.titreNote h6 {
+		text-align: center;
+	}
+
+	.yellow {
+		text-align: center;
+		padding-bottom: 45px;
+	}
+}
+
+/* Responsive */
+
+/* Gmap */
+
+iframe {
+	width:500px;
+	height:350px;
+	border: 5px solid #273a71;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+/* Gmap */

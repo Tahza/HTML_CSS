@@ -1,0 +1,1 @@
+- La page HTML aura une largeur de 940px

@@ -1,0 +1,33 @@
+.yellow {
+	color: #f1e965;
+}
+
+.red {
+	color: rgb(241, 108, 101);
+	color: rgba(241, 108, 101, 0.5);
+	color: #f16c65;
+}
+
+.big {
+	font-size: 30px;
+	font-size: 2em; /* 2 fois la taille en px du body */
+	text-transform: uppercase; /* Passe tout le texte en Maj */
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+[target="_blank"] {
+	color: green;
+	text-decoration: none;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+#unique {
+	color: #659af1;
+}
+
+.bold {
+	font-weight: bold;
+}

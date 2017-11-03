@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercice HTML</title>
+		<!-- CSS avec pixels -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale-1">
+		<link rel="stylesheet" href="style.css">
+		<!-- CSS avec pourcentage -->
+		<link rel="stylesheet" href="style_pourcentage.css">
+		<!-- On va essayer de rendre l'intégration responsive.
+			 On aura 2 breakpoints : 768px (Smartphone) et 992px (Tablette)
+			 Sur Tablette :
+			 -Il faudrait avoir 2 articles par lignes au lieu de 3
+
+			 Sur Mobile :
+			 -On masque la slidebar
+			 -La balisemain doit prendre 100% de la taille de la fenetre ( ou 98% avec les paddings)
+			 -Les articles doivent apparaitre les uns en dessous des autres
+			 -Le menu passe en dessous du logo et les éléments du menu doivent passer les uns en dessous des autres
+			 -->
+	</head>
+	<body>
+		<div class="page">
+			<!-- Zone verte -->
+			<header>
+				<div class="logo">
+					Logo
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Accueil</a></li>
+						<li><a href="#">A propos</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+			</header>
+			<section>
+				<!-- Zone Bleu -->
+				<main>
+					<article>1</article>
+					<article>2</article>
+					<article>3</article>
+					<article>4</article>
+					<article>5</article>
+					<article>6</article>
+					<article>7</article>
+					<article>8</article>
+					<article>9</article>
+				</main>
+				<!-- Zone Rouge -->
+				<aside>
+					Sidebar
+				</aside>
+				<div class="clearfix"></div>
+			</section>
+			<!-- Zone marron -->
+			<footer>
+				&copy; Copyright
+			</footer>
+		</div>
+	</body>
+</html>

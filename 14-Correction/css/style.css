@@ -1,0 +1,212 @@
+/* Utiliser une police qui n'est pas sur Google Fonts */ 
+@font-face {
+	font-family: 'BallPark';
+	/*src: url('fonts/ballpark.woff');*/
+	src: url('fonts/ballpark.woff') format('woff'),
+		 url('fonts/ballpark.ttf') format('truetype'),
+		 url('fonts/ballpark.eot') format('embedded-opentype'),
+		 url('fonts/ballpark.svf') format('svf');
+}
+
+body {
+	background-color: #fff5d7;
+	max-width: 980px;
+	margin: 10px auto; /* Centrer la page */
+	font-family: 'Lato';
+}
+
+/* ----- GLOBAL ----- */
+
+.clearfix {
+	clear: both;
+}
+
+/* ----- HEADER ----- */
+
+header {
+	/*background-image: url(../img/separateur.png);
+    background-position: bottom;
+    background-repeat: repeat-x;*/
+    /* background: couleur image position/size repeat; */
+    background: url(../img/separateur.png) bottom repeat-x;
+}
+
+.logo, .menu {
+	float: left;
+	width: 50%;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.logo h1 {
+	display: inline;
+	font-family: 'BallPark';
+	font-weight: normal;
+}
+
+.logo h2 {
+	margin-top: 0;
+}
+
+/* ----- MENU ----- */
+
+.menu {
+	text-align: right;
+	margin-top: 50px;
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-size: 21px;
+}
+
+.menu ul li a:hover {
+	color: #760001;
+	text-decoration: underline;
+}
+
+/* ----- FOND ----- */
+
+.bgSanFrancisco {
+	background-image: url(../img/sanfrancisco.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 20px 0;
+	height: 200px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 4px 0px #000000; /* Ajoute une ombre à la div */
+}
+
+.bgDescription {
+	position: absolute;
+    bottom: 0px; /* Relatif à bgSanFransisco grâce au position: relative; */
+    width: 96%;
+    padding: 15px 2%;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 5px 5px; /* Arrondi en bas à gauche et en bas à droite */
+}
+
+.button {
+	position: absolute;
+    right: 15px;
+    bottom: 8px;
+	padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    background: url(../img/fond_degraderouge.png) repeat-x;
+}
+
+/* Ajoute un élément à la fin dans .button */
+.button:after {
+	content: '►';
+	font-size: 12px;
+    margin-left: 5px;
+}
+
+/* ----- CONTENU ----- */
+
+.content {
+	display: flex; /* Permet d'avoir article et aside à la même hauteur */
+}
+
+.content article, .content aside {
+	float: left;
+}
+
+.content article {
+	width: 70%;
+}
+
+.content aside {
+	width: 30%;
+    background-color: grey;
+    padding: 0 20px;
+    margin-left: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0px #000000;
+}
+
+.content article h2, .content aside h2 {
+	text-transform: uppercase;
+}
+
+.content article h2 img {
+	vertical-align: middle;
+}
+
+aside .avatar {
+	display: block;
+	margin: auto;
+    border: 1px solid #000000;
+}
+
+.sprite {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sprite.png);
+    background-size: 280px 81px;
+    background-position-x: 0px;
+    /* Webkit pour Chrome et Moz pour Firefox. Ne sert plus trop en 2017... */
+    -webkit-transition: 1s;
+    -moz-transition: 5s; /* Permet de ralentir le changement du background position */
+    margin-left: 20px;
+}
+
+.sprite:hover {
+	background-position-y: 40px;
+}
+
+.sprite-facebook {
+	background-position-x: 0px;
+}
+
+.sprite-twitter {
+	background-position-x: 240px;
+}
+
+.sprite-youtube {
+	background-position-x: 200px;
+}
+
+.sprite-instagram {
+	background-position-x: 160px;
+}
+
+/* ----- FOOTER ----- */
+
+footer > div {
+	float: left;
+	width: 33.33%;
+}
+
+#friends ul {
+	float: left;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	list-style-image: url(../img/ico_liensexterne.png);
+}
+
+#friends ul li a {
+	color: #760001;
+	text-decoration: none;
+}

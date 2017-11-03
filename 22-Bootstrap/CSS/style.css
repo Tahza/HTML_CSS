@@ -1,0 +1,34 @@
+header {
+	background-image: url(../img/slide1.jpg);
+}
+
+.navbar-webforce {
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.navbar-webforce .navbar-nav>li>a {
+	transition: 0.5s;
+	border: 1px solid transparent;
+	color: #000;
+}
+
+.navbar-webforce .navbar-nav>li>a:hover {
+	color: #e8e8e8;
+	border: 1px solid grey;
+}
+
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	#menu {
+		background-color: #fff;
+	}
+	.navbar-webforce .navbar-nav>li>a {
+		color: #000;
+	}
+}

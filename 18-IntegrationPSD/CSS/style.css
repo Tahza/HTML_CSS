@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
+
+body {
+	margin: 0;
+}
+
+.page {
+	max-width: 980px;
+	margin: auto;
+}
+
+/* Début menu */
+
+header {
+	height: 115px;
+}
+
+.logo {
+	width: 490px;
+	height: 30px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 40px;
+}
+
+.logo, .menu {
+	float: left;
+}
+
+.menu {
+	margin-top: 30px;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+	margin-left: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #777777;
+}
+
+.menu ul li a:hover {
+	color: black;
+} 
+
+.clearfix {
+	clear: both;
+}
+
+/* Fin menu */
+
+/* Debut Background */
+
+.creative {
+	height: 580px;
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position-y: -495px;
+	background-size: cover;
+}
+
+.opacCreative {
+	height: 580px;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.txtCreative {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 235px;
+	left: 700px;
+}
+
+.textCreative {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	position: absolute;
+	top: 400px;
+	left: 780px; 
+	color: #cccccc;
+}
+
+.buttonCreative a {
+	position: absolute;
+	top: 480px;
+	left: 870px;
+	padding: 25px 30px;
+	background-color: #7cc576;
+	text-transform: uppercase;
+	border: 1px solid #7cc576;
+	border-radius: 70px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+}
+
+.buttonCreative:hover, a:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+}
+
+/* Fin Background */
+
+/* Début Professional */
+
+.professional h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.professional {
+	margin-top: 100px;
+}
+
+.professional p {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	color: #cccccc;
+	margin-top: 0;
+}
+
+.icone {
+	margin-top: 90px;
+}
+
+.beautiful {
+	text-align: center;
+	display: inline;
+	float: left;
+}
+
+.txtBeautiful {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pBeautiful {
+	position: absolute;
+	left: 410px;
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.responsive {
+	margin-left: 210px;
+	text-align: center;
+	display: inline-block;
+}
+
+.txtResponsive {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pResponsive {
+	position: absolute;
+	left: 800px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.marketing {
+	text-align: center;
+	display: inline;
+	float: right;
+}
+
+.txtMarketing {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pMarketing {
+	position: absolute;
+	right: 410px;
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+/* Fin professional */
+
+/* Culture */
+
+.culture {
+	background-color: #f9f9f9;
+	height: 560px;
+	margin-top: 210px;
+}
+
+.culture h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.txtCulture {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	padding-top: 100px;
+	font-size: 40px;
+}
+
+.txtUn {
+	font-family: 'Roboto Slab', serif,
+	font-size: 20px;
+	color: #777777;
+	text-align: center;
+}
+
+.musique {
+	text-align: center;
+	display: inline;
+	float: left;
+}
+
+.txtMusique {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pMusique {
+	position: absolute;
+	left: 410px;
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.reseau {
+	margin-left: 170px;
+	text-align: center;
+	display: inline-block;
+}
+
+.txtReseau {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pReseau {
+	position: absolute;
+	left: 800px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.etoile {
+	text-align: center;
+	display: inline;
+	float: right;
+}
+
+.txtEtoile {
+	margin-top: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.pEtoile {
+	position: absolute;
+	right: 410px;
+	margin-top: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color: #a2a2a2;
+}
+
+.separateur {
+	position: absolute;
+	top: 2415px;
+    left: 665px;
+	height: 2px;
+	width: 170px;
+	background-color: #777777;
+}
+
+.separateur2 {
+	position: absolute;
+	top: 2415px;
+	right: 665px;
+	height: 2px;
+	width: 170px;
+	background: #777777;
+}
+
+/* Fin Culture */
+
+/* Début Relax */
+
+.relax {
+	margin-top: 210px;
+	background-color: #e9e9e9;
+	height: 615px;
+}
+
+.roue {
+	position: absolute;
+	left: 453px;
+    margin-top: 100px;
+	height: 615px;
+	width: 200px;
+	background-image: url(../img/roue.png); 
+	background-repeat: no-repeat;
+}
+
+.bgRelax {
+	background-image: url(../img/bgrelax.jpg);
+	width: 1250px;
+	height: 615px;
+	float: right;
+	background-size: cover;
+}
+
+.bgOpac {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 1250px;
+	height: 615px;
+	position: absolute;
+	right: 0;
+}
+
+.bgOpac h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	padding-left: 100px;
+	margin-top: 90px;
+}
+
+.bgOpac span {
+	color: #7cc576;
+}
+
+.relax p {
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	color: #cccccc;
+	padding-left: 100px;
+}
+
+.relax ul {
+	padding-left: 100px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	color: #cccccc;
+}
+
+.relax ul li {
+	background-image: url(../img/check.png);
+	list-style-type: none;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	line-height: 45px;
+	background-position: left center;
+}
+
+.buttonRelax {
+	padding-left: 100px;
+}
+
+.buttonRelax a {
+	position: relative;
+	top: 100px;
+	padding: 25px 30px;
+	background-color: #7cc576;
+	text-transform: uppercase;
+	border: 1px solid #7cc576;
+	border-radius: 70px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+}
+
+.buttonRelax a:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Priorité des sélecteurs en CSS</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- Il existe une notion de priorité en CSS :
+		Du + important au - important :
+		- !important 10000
+		- Attribut style 2000
+		- Sélecteur id (#) 1000
+		- Sélecteur class (.) 100
+		- Sélecteur balise (div) 10
+		- Sélecteur universel (*) 1
+		-->
+		<div id="container" class="container">
+			<section class="area" style="color: pink"> <!-- 2000 -->
+				<p>Paragraphe</p>
+			</section>
+		</div>
+	</body>
+</html>

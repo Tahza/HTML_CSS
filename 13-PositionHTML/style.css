@@ -1,0 +1,30 @@
+.relative {
+	font-size: 35px;
+	position: relative;
+	top: 10px;
+}
+
+.absoluteUn {
+	position: absolute;
+	top: 10px;
+}
+
+.bgWallpaper {
+	background-image: url(wallpaper.jpg); /* Source de l'image */
+	height: 200px; /* Hauteur de la div */
+	background-size: cover; /* Taille de l'image de fond */
+	background-position: center; /* Position de l'image de fond */
+	background-repeat: no-repeat; /* Répétition de l'image de fond */
+	position: relative;
+}
+
+.absolute {
+	font-size: 25px;
+	position: absolute;
+	bottom: 43%; /* Hauteur de la div /2 - hauteur de l'élément /2 */
+	right: 0;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,68 @@
+/* La page de manière globale */
+
+body {
+	margin: 0; /* Reset de la marge de 8px */
+	background-color: yellow;
+}
+
+.page {
+	width: 980px;
+	margin: auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+header {
+	background-color: green;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.logo, nav {
+	width: 470px;
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+main, aside {
+	float: left;
+	padding: 10px;
+}
+
+main {
+	width: 600px;
+	background-color: blue;
+}
+
+article {
+	width: 140px;
+	height: 140px;
+	margin: 20px;
+    padding: 10px;
+	float: left;
+	background-color: pink;
+}
+
+aside {
+	width: 320px;
+	height: 580px;
+	background-color: red;
+	padding: 20px;
+}
+
+footer {
+	background-color: brown;
+	padding: 20px;
+	margin: 20px 0;
+}

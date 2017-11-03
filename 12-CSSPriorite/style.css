@@ -1,0 +1,25 @@
+#container {
+	background-color: red;
+}
+.container {
+	background-color: blue;
+}
+div {
+	background-color: green;
+}
+
+#container .area { /* 1000 */
+	color: #ff0000;
+}
+
+.container .area { /* 100 */
+	color: #ffffff;
+}
+
+.container .area { /* 10100 avec le important */
+	color: orange!important;
+}
+
+#container.container .area { /* 1100 */
+	color: #ffffff;
+}

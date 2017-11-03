@@ -1,0 +1,348 @@
+/* -- Système de colonnes générique -- */
+/* Le after est un pseudo sélecteur qui permet de créer un élément HTML de manière virtuelle grâce au CSS */
+.row:after {
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.col-25, .col-33, .col-66, .col-75 {
+	float: left;
+}
+
+.col-25 {
+	width: 25%;
+}
+
+.col-33 {
+	width: 33.33%;
+}
+
+.col-66 {
+	width: 66.66%;
+}
+
+.col-75 {
+	width: 75%;
+}
+
+/* -- Fin -- */
+
+/* -- Reset -- */
+body {
+	margin: 0;
+	font-size: 14px;
+	color: #777777;
+}
+
+/* La police Montserrat est uniquement pour les titres */
+h1, h2, h3, h4, h5, h6, .menu li {
+	/* Les simples quotes sont obligatoires uniquement si le nom de la police contient des espaces */
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+/* -- Fin -- */
+
+/* Style global */
+.button {
+	font-family: 'Montserrat';
+	font-size: 16px;
+    background-color: #7cc576;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 21px 29px;
+    border-radius: 30px;
+    text-shadow: 0px 1px 2px #282828;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-delay: 200ms;
+    transition-timing-function: linear;
+}
+
+.button:hover {
+	background-color: rgba(124, 197, 118, 0.5);
+	transform: rotate3d(1, 0, 0, 360deg);
+}
+/* -- Fin -- */
+
+.page {
+	max-width: 940px;
+	margin: auto;
+}
+
+/* -- Logo et Menu -- */
+.logo img {
+	display: block;
+	height: 30px;
+}
+
+header {
+	padding: 42px 0;
+	/*padding-top: 42px;
+    padding-bottom: 42px;*/
+}
+
+.menu {
+	line-height: 30px;
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline;
+}
+
+.menu ul li a {
+	color: #777777;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+    padding: 10px;
+    position: relative;
+}
+
+.menu ul li a:before {
+	content: ' ';
+	position: absolute;
+	height: 2px;
+	left: 0;
+	bottom: 0;
+	width: 0%;
+	background-color: rgba(119, 119, 119, 0.5);
+	transition: 0.5s;
+}
+
+.menu ul li a:hover:before {
+	width: 100%;
+}
+
+.menu ul li a:hover {
+	color: rgba(119, 119, 119, 0.5);
+	/*border-bottom-color: rgba(119, 119, 119, 0.5);*/
+}
+/* -- Fin -- */
+
+/* -- Jumbotron: Bloc mis en avant avec un CTA (Call To Action = Bouton) -- */
+.jumbotron {
+	background-image: url(../img/fondBureau.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 90%;
+	height: 530px;
+	position: relative;
+}
+
+.jumbotron-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	color: #cccccc;
+}
+
+.jumbotron-content h1 {
+	color: #ffffff;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.jumbotron-content p {
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.jumbotron-content .page {
+	padding-top: 120px;
+	text-align: center;
+}
+
+@keyframes animationDuPattern {
+	from {
+		background-color: #000000;
+	}
+	to {
+		background-color: pink;
+	}
+}
+
+@keyframes animationDuPattern {
+	0% {
+		background-color: green;
+	}
+	30% {
+		background-color: pink;
+	}
+	100% {
+		background-color: blue;
+	}
+}
+
+@keyframes animationBackground {
+	25% {
+		background-image: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-46.jpg);
+	}
+	75% {
+		background-image: url(../img/fondBureau.jpg);
+	}
+}
+
+.jumbotron {
+	animation-name: animationBackground;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.pattern { /* Le pattern fait office de filtrer pour notre jumbotron */
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+    animation-name: animationDuPattern;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /*animation-fill-mode: forwards;*/
+}
+/* -- Fin -- */
+
+/* -- Sections -- */
+section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+section h2 {
+	margin: 0;
+	text-transform: uppercase;
+	color: #222222;
+	font-size: 40px;
+}
+
+section .page > p {
+	margin-top: 10px;
+	margin-bottom: 60px;
+	font-size: 20px;
+}
+
+.box h3 {
+	text-transform: uppercase;
+	margin: 30px 0 20px 0;
+	color: #222222;
+	font-size: 18px;
+}
+
+.box p {
+	padding: 0 32px;
+}
+
+.grey {
+	background-color: #f9f9f9;
+}
+
+.img-circle {
+	border: 3px solid #777777;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.boxWithTrait {
+	position: relative;
+}
+
+.boxWithTrait:after {
+	content: ' ';
+    width: 160px;
+    height: 3px;
+    position: absolute;
+ 	top: 40px;
+    right: -80px;
+    background-color: #777777;
+}
+
+section.specific {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+section.specific .row {
+	display: flex;
+}
+
+section.specific .col-33 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.gear {
+	background-image: url(../img/gear.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 300%;
+    background-attachment: scroll;
+    min-height: 400px;
+}
+
+.sea {
+	position: relative;
+	background-image: url(../img/fondPlage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sea .page {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	max-width: 750px;
+}
+
+.sea h2 {
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.sea p, .sea ul {
+	color: #cccccc;
+}
+
+.specific-content {
+	padding: 100px 0 0 120px;
+}
+
+.specific-content p {
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.specific-content ul {
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.specific-content ul li {
+	list-style-type: none;
+    background-image: url(../img/checkmark.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    line-height: 45px;
+}
+
+.green {
+	color: #7cc576;
+}

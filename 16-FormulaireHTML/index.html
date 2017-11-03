@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulaire en HTML</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<!-- Un formulaire se situera toujours dans une balise form -->
+		<form action="/URL.php">
+			<label for="lastname">Nom :</label>
+			<!-- Un champ saisie de type text. Balise autofermante -->
+			<input id="lastname" type="text" name="lastname" value="" placeholder="Ecrivez-votre nom"> <br />
+			<!-- L'attribut value pré remplit le champ, le placeholder s'efface quand l'utilisateur focus -->
+			<label for="firstname">Prénom :</label>
+			<input id="firstname" type="text" name="firstname" value="" placeholder="Ecrivez-votre prénom"> <br />
+			<!-- Champs avec jour mois année -->
+			<label for="date">Date :</label>
+			<input id="date" type="date" name="date" value="" placeholder="Ecrivez la date"> <br />
+			<!-- Champs avec heure et minutes -->
+			<input id="time" type="time" name="time" value="" placeholder="Ecrivez l'heure"> <br />
+			<!-- Champs avec color picker -->
+			<input id="color" type="color" name="color" value="" placeholder="Ecrivez-votre couleur"> <br />
+			<!-- Champs pour un text long -->
+			<label>Votre message :</label><br />
+			<textarea name="message" rows="10" cols="40"></textarea> <br />
+			<!-- Champs de sélection -->
+			<select name="choice">
+				<option value="1">Choix 1</option>
+				<option value="2">Choix 2</option>
+				<option value="3">Choix 3</option>
+				<option value="4">Choix 4</option>
+			</select><br />
+			<!-- Checkbox: plusieurs choix possible -->
+			<label><input type="checkbox" name=""> Choix 1</label>
+			<label><input type="checkbox" name=""> Choix 2</label>
+			<label><input type="checkbox" name=""> Choix 3</label><br />
+			<!-- Radio: 1 seul choix possible -->
+			<label><input type="radio" name="genre"> Choix 1</label>
+			<label><input type="radio" name="genre"> Choix 2</label>
+			<label><input type="radio" name="genre"> Choix 3</label><br />
+			<!-- Upload de fichier -->
+			<input type="file" name="file">
+		</form>
+	</body>
+</html>

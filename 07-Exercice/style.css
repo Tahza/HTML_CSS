@@ -1,0 +1,28 @@
+.zoneDuHaut {
+	width: 900px;
+	height: 200px;
+	background-color: red;
+	margin: 0;
+}
+.zoneDeGauche {
+	width: 150px;
+	height: 600px;
+	background-color: blue;
+	margin: auto;
+	float: left;
+}
+.zoneDuMilieu {
+	width: 600px;
+	height: 600px;
+	background-color: green;
+	margin:auto;
+	float: left;
+}
+
+.zoneDeDroite {
+	width: 150px;
+	height: 600px;
+	background-color: brown;
+	margin: auto;
+	float: left;
+}

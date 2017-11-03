@@ -1,0 +1,79 @@
+/* On selectionne les p qui sont uniquement les enfants directs de #content */
+
+#content > p {
+	color: blue;
+}
+
+/* On selectionne tous les p qui sont strictement après un p dans la classe container */
+
+#content .container p + p{
+	color: red;
+}
+
+/* On sélectionne tous les p qui sont après un p même si on a d'autres balises entre deux dans la classe container */
+
+#content .container p ~ p{
+	color: red;
+}
+
+/* Pseudo classes */
+
+.yellowHover:hover { /* Quand la classe yellowHover est survolée */
+	background-color: Yellow;
+	cursor: pointer;
+}
+
+input {
+	border-radius: 5px;
+	border: 1px solid #a8a8a8;
+	padding: 2px 15px;
+}
+
+input:focus {
+	outline: 0;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 2px 15px;
+	border-color: #54BF78;
+}
+
+a:visited {
+	color: #D5B692;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+	color: green;
+	font-weight: bold;
+}
+
+p:active {
+	color: red;
+}
+
+p:first-child {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p:nth-child(2) {
+	font-family: verdana;
+	font-size: 22px;
+}
+
+p:nth-child(3) {
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+span {
+	font-size: 35px;
+	text-decoration: line-through;
+}
+
+p:nth-child(5) {
+	font-family: Arial;
+}
+/* Ici on prend le premier li de chaque ul après un span
+span ~ ul li:first-child */

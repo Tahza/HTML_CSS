@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap</title>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
+
+		<!-- Bootstrap sans CDN, attention aux polices -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Bootstrap avec CDN -->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+		<!-- CSS toujours après Bootstrap -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+      		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+
+	</head>
+	<body>
+		<!-- Le container limite la page a 1200px max -->
+		<div class="container">
+			<h1>Mon site avec Bootstrap <span class="glyphicon glyphicon-user"></span></h1>
+			<a href="#" class="btn btn-success btn-lg">Un super bouton</a>
+			<!-- Pour utiliser les colonnes, il nous faut une div avec la class row. Dans cette div, on ne doit avoir que des colonnes. Et la div.row doit absolument être dans un container. -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Titre</h2>
+				</div>
+			</div>
+			<div class="row">
+			<!-- xs= eXtraSmall (< 768), sm= Small (>= 768), md= Medium (>= 992), lg= Large (>= 1200) -->
+				<div class="col-md-6">
+					Une colonne à gauche
+				</div>
+				<div class="col-md-6">
+					Une colonne à droite
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					Divisé par 4
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					Divisé par 4
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					Divisé par 4
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					Divisé par 4
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					Ma colonne de 3
+				</div>
+				<div class="col-md-6 col-md-offset-3">
+					Ma colonne de 6
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-5">A</div>
+						<div class="col-md-5">B</div>
+						<div class="col-md-2">C</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-5">D</div>
+						<div class="col-md-5">E</div>
+						<div class="col-md-2">F</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Ordres des colonnes -->
+			<div class="row">
+				<div class="col-md-3 col-md-push-9">
+					Sidebar
+				</div>
+				<div class="col-md-9 col-md-pull-3">
+					Contenu
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
